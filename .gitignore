@@ -1,0 +1,15 @@
+# o HTML é intermediário: o material versionado é só o PDF
+*.html
+
+# temporários de editor e sistema
+*~
+*.bak
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# dumps e bancos locais de teste
+*.sqlite
+*.sqlite3
+*.db
+*.dump
