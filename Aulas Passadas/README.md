@@ -1,18 +1,19 @@
 # Aulas Passadas
 
-Ainda vazio: a UC está na operação 01, que é a que está em
-[`../Hoje/`](../Hoje/).
-
-Quando a operação seguinte começar, a pasta de hoje é movida para cá inteira,
-com o PDF e o README dela, e `Hoje/` recebe a nova. A organização vai ficar
-assim:
+Todo o material já dado. A operação atual fica em [`../Hoje/`](../Hoje/); quando
+a seguinte começa, a pasta de hoje é movida para cá inteira, com o PDF e o
+README dela.
 
 ```
 Aulas Passadas/
   dia-01-o-recrutamento/       o que é banco, SGBD, tipos de dados, fundar a célula
-  dia-02-instalar-o-cofre/     instalar o SGBD e criar a base
-  ...
 ```
 
 O nome da pasta é sempre `dia-NN-titulo-da-operacao`, com o mesmo título que a
 operação tem no site.
+
+## O que já foi dado
+
+| Dia | Operação | Ato | Assunto |
+|---|---|---|---|
+| 01 | O recrutamento | I | Banco de dados, SGBD, nomenclatura, tipos de dados. Célula formada e empresa inventada. |
