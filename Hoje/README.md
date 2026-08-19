@@ -1,115 +1,146 @@
-# Hoje: operação 02 — O olho clínico
+# Hoje: operação 03 — O que a empresa guarda
 
-Segundo dia do **Ato I — O reconhecimento**, e o segundo (e último) dia de papel
-e caneta. A turma aprende a **ler uma tabela pronta e enxergar o que está errado
-nela**: atomicidade, chave primária e uma coisa por tabela. No fim, cada célula
-desenha a primeira tabela da empresa que inventou ontem.
+Primeiro dia do **Ato II — A planta**, e o terceiro dia de papel e caneta. A
+turma aprende a **descobrir o que a empresa guarda** e a escrever isso num
+documento fechado: levantamento de dados, entidade e atributo, tipo, tamanho,
+obrigatoriedade, e o **dicionário de dados**.
 
-Use **`dia-02-o-olho-clinico.pdf`** do começo ao fim. Ele é só roteiro: **não
-tem espaço de resposta**. A turma responde tudo no caderno, e é o caderno que as
-células trocam entre si no teste final.
+Use **`dia-03-o-que-a-empresa-guarda.pdf`** do começo ao fim. Ele é só roteiro:
+**não tem espaço de resposta**. A turma responde tudo no caderno, e é o caderno
+que as células trocam entre si no fim.
 
 ## A regra do dia
 
-**Sem dispositivos, de novo.** Ninguém escreve SQL, ninguém instala SGBD,
-ninguém pesquisa resposta. A instalação passou para a operação 03. Adiantar a
-instalação hoje custaria a única coisa que não dá para recuperar depois: o tempo
-de olhar tabela devagar, com a turma discutindo em voz alta.
+**Sem dispositivos, pelo terceiro dia.** A instalação do SGBD não acontece hoje.
+O dia inteiro é conversa, papel e caneta. Ver a nota sobre a instalação no fim
+deste README.
 
-**Traga a ficha de fundação da operação 01.** Ela é o insumo do capítulo 7. Quem
-faltou ontem precisa fechar a ficha com a célula antes do capítulo 7 começar.
+**Traga a ficha de fundação da operação 01 e o desenho da operação 02.** As duas
+são insumo do capítulo 7. Quem faltou precisa fechar as duas com a célula antes
+do capítulo 7 começar.
 
 ## Os sete capítulos
 
 | Cap | Assunto | Termina em |
 |---|---|---|
-| 1 | A tabela que parece certa | Exercício 1 |
-| 2 | As quatro perguntas que se faz a uma tabela | Checkpoint 1 + Exercício 2 |
-| 3 | Um valor por campo (atomicidade) | Exercício 3 |
-| 4 | O que identifica uma linha (chave primária) | Checkpoint 2 + Exercício 4 |
-| 5 | Uma coisa por tabela | Checkpoint 3 |
-| 6 | Melhorar a tabela dos outros | Exercício 5 |
-| 7 | A missão: a primeira tabela da sua empresa | Checkpoint 4 |
+| 1 | Duas listas da mesma empresa | Exercício 1 |
+| 2 | Onde o dado já está escrito | Checkpoint 1 + Exercício 2 |
+| 3 | Entidade ou atributo | Exercício 3 |
+| 4 | Tipo, tamanho e obrigatoriedade | Checkpoint 2 + Exercício 4 |
+| 5 | O dicionário de dados | Checkpoint 3 |
+| 6 | Corrigir o dicionário dos outros | Exercício 5 |
+| 7 | A missão: o dicionário da empresa | Checkpoint 4 |
 
-Mais três anexos: **A** com os cinco erros de leitura que o dia produz, **B** com
-sete extras opcionais e **C** com o checklist de entrega.
+Mais três anexos: **A** com os cinco erros que o dia produz, **B** com sete
+extras opcionais e **C** com o checklist de entrega.
+
+## O tom do material
+
+Este PDF é o primeiro escrito inteiro no estilo ASD-STE100 aplicado ao
+português: frase curta, uma instrução por frase, imperativo, uma palavra um
+significado. Vale para a teoria também, não só para os enunciados. É para ler em
+voz alta assim mesmo.
+
+**Vocabulário fixo, o mesmo da operação 02.** `célula` é sempre o grupo de
+alunos e `campo` é sempre o quadradinho da tabela. Acrescentam-se hoje três
+termos, e eles não têm sinônimo neste material: **entidade** (vira tabela),
+**atributo** (vira coluna) e **domínio** (tipo mais tamanho mais
+obrigatoriedade).
 
 ## Como conduzir
 
-O capítulo 1 é o gancho e depende de a turma **não** ter o roteiro ainda. A
-tabela do petshop é bonita de propósito: cada aluno acha dois ou três defeitos,
-e ninguém acha todos. Não entregue as quatro perguntas antes do exercício 1
-terminar, senão o efeito do exercício 2 se perde.
+O capítulo 1 é o gancho e depende de a turma **não** ter o método ainda. As duas
+listas da pousada são plausíveis de propósito. Deixe a turma defender as duas
+antes de entregar o capítulo 2, senão o exercício 1 não produz divergência e o
+capítulo 2 perde a razão de existir.
 
-O capítulo 2 é o eixo do dia. As quatro perguntas (do que é / o que identifica a
-linha / um valor por campo / o que repete) voltam em todos os capítulos
-seguintes e em todo o Ato II. Vale escrevê-las no quadro e deixar lá até o dia 7.
+O capítulo 2 é o eixo do dia. O procedimento de **substantivo e verbo** e o
+**critério da pergunta** voltam em todos os capítulos seguintes e na missão.
+Vale escrever os dois no quadro e deixar lá até o dia 7.
 
-Os capítulos 3 a 5 são teoria com exercício no fim. Cada checkpoint é ponto de
-parada da turma inteira: confira em voz alta antes de seguir.
+Os capítulos 3 e 4 são teoria com exercício no fim. O capítulo 4 é o mais denso
+e o mais chato: ele é o que faz a operação 08 render.
 
-**Vocabulário fixo, use sempre o mesmo termo.** Neste material, `célula` é
-**sempre** o grupo de alunos e `campo` é **sempre** o quadradinho da tabela (o
-encontro de uma linha com uma coluna). A definição está numa nota no capítulo 2.
-A turma se perde rápido se a mesma palavra virar duas coisas na sua fala: chame
-o quadradinho de campo, do dia 2 até o dia 18. Vale para o resto do vocabulário
-também: tabela, linha, coluna, campo, chave. Não alterne com "registro",
-"atributo" ou "célula da planilha".
+O capítulo 5 é curto e é o que a turma leva do dia. Os dois dicionários da
+pousada são o modelo que a missão copia.
 
-Os enunciados dos exercícios estão escritos em frases curtas, uma instrução por
-frase, no imperativo. Foi de propósito, e é para ler em voz alta assim mesmo.
+O capítulo 6 é o primeiro em que a célula corrige um documento inteiro em vez de
+uma tabela. Espere lentidão aqui.
 
-O capítulo 6 é o primeiro em que a célula produz desenho em vez de diagnóstico.
-Espere lentidão aqui, é onde o dia trava.
-
-O capítulo 7 é a aula toda. **Reserve a última hora para ele.**
+O capítulo 7 é a aula toda. **Reserve a última hora e meia para ele.** Ele é
+maior que o capítulo 7 da operação 02, porque a missão é o documento inteiro e
+não uma tabela.
 
 ## Onde a turma trava
 
-- **Exercício 4, item d (agendamento de barbearia).** "Cliente + data + hora"
-  parece resolver até aparecer o segundo barbeiro atendendo no mesmo horário.
-  Deixe a discussão correr três minutos antes de intervir.
-- **Exercício 4, item e (sensor).** Primeira chave composta da UC. Se ninguém
-  chegar lá sozinho, conduza: "o mesmo sensor lê duas vezes?", "dois sensores
-  leem no mesmo instante?".
-- **Exercício 5, o plano da academia.** A decisão boa não é separar, é perguntar
-  se o preço do plano é o mesmo para todo mundo. Célula que discutiu isso
-  entendeu o capítulo 5 melhor do que quem só separou.
-- **Separar demais.** Depois do capítulo 5 aparece a célula que cria tabela para
-  cor, bairro e status. O exemplo do estacionamento (capítulo 6) e o erro 4 do
-  anexo A existem para segurar isso.
+- **Exercício 2, item 5 (marcenaria).** Falta o dado "dias trabalhados por
+  ajudante em cada serviço". Quase nenhuma dupla acha sozinha. Conduza pela
+  pergunta do dono: "para tirar a diária, você precisa saber o quê?".
+- **Exercício 3, praça e ingrediente.** Os dois parecem atributo e são entidade.
+  A diferença está nas informações do negócio, não no nome. Célula que decidiu
+  sem reler a lista de informações erra os dois.
+- **Exercício 4, `cpf_responsavel`.** Obrigatória para menor, inexistente para
+  adulto. Não existe marca certa hoje. A saída é declarar opcional e escrever a
+  regra na descrição. Deixe a discussão correr três minutos.
+- **Marcar tudo como obrigatório.** É o erro 4 do anexo A e o mais comum do dia.
+  O sintoma é a célula justificar com a palavra "importante". Importante não é o
+  critério: o critério é impedir a linha de existir.
+- **Separar demais, de novo.** A operação 02 já produziu isso. Hoje reaparece em
+  `status`, `forma_pagamento` e `cor`. A regra do só nome, no capítulo 3, e o
+  erro 3 do anexo A existem para segurar.
 
 ## A missão da célula
 
-**A primeira tabela da empresa.** A célula escolhe a entidade principal da lista
-de coisas a guardar (tem que ser algo que existe sozinho, não um evento),
-define de 5 a 8 colunas, escolhe e justifica a chave primária, e **preenche três
-linhas de exemplo com dados inventados**.
+**O dicionário de dados da empresa.** A célula escreve as perguntas do dono,
+levanta os candidatos pela ficha da operação 01, aplica o teste das três
+perguntas, fecha entre 5 e 8 entidades, e escreve o **dicionário completo de
+três tabelas** com as oito colunas. Uma das três é obrigatoriamente a tabela
+desenhada na operação 02. As tabelas restantes entram só com nome, PK e de 3 a 5
+colunas.
 
-As três linhas de exemplo são o coração da missão: é ali que aparece a coluna
-que fica vazia sempre, a que precisa de vírgula para caber e a que repete a
-coluna do lado. Não deixe nenhuma célula entregar sem escrever as três.
+O passo 3 é o que separa a entrega boa da entrega fraca: a célula liga cada
+pergunta do dono às colunas que respondem a pergunta. Célula que não consegue
+fazer essa ligação descobre ali, no papel, que falta coluna.
 
-O passo 4 do capítulo 7 lista, em oito itens, exatamente o que vai no caderno.
+O passo 4 lista, em oito itens, exatamente o que vai no caderno. O modelo do
+dicionário para copiar está logo abaixo dele.
 
 A entrega é pelo botão **Entregar no site**, no card da missão. Uma por célula.
 
-## Pendência no site
+## Pendências no site
 
-O `curriculo.js` ainda descreve o dia 2 como "Instalar o cofre" e a missão do
-dia 2 como "Instalar o SGBD". Com a instalação empurrada para a operação 03, o
-currículo do site precisa ser ajustado (título, `vemos` e o card da missão),
-senão a turma abre o site e vê outra coisa.
+1. O `curriculo.js` ainda descreve o dia 2 como "Instalar o cofre" e a missão do
+   dia 2 como "Instalar o SGBD". A operação 02 foi dada como "O olho clínico",
+   sem instalação. O título, o `vemos` e o card da missão do dia 2 precisam ser
+   ajustados.
+2. O dia 3 no `curriculo.js` já está correto: "O que a empresa guarda",
+   modelagem conceitual, levantamento e dicionário de dados. Nada a mudar.
+3. A missão do site para os dias 3 a 7 é "O modelo completo", uma entrega só
+   para cinco dias. O dicionário de hoje é a primeira parcela dela. Vale marcar
+   isso no card, senão a célula acha que a entrega de hoje é a entrega final.
+
+## A instalação do SGBD
+
+O README da operação 02 anunciou para hoje a instalação do SGBD. Ela foi
+adiada de novo, de propósito: o dicionário de dados ocupa as quatro horas
+inteiras, e instalação pela metade custa o capítulo 7.
+
+A instalação e o DER em ferramenta (brModelo ou dbdiagram) ficam para a
+operação 06, que já é o dia do desenho no site. Quem assumir a turma na
+operação 04 precisa saber disso: **a turma chega no dia 4 sem ambiente
+instalado**, com o modelo inteiro no papel.
 
 ## O que o dia prepara
 
-A tabela desenhada no caderno é o insumo da operação 03: a célula instala o SGBD,
-cria a base da empresa e transforma esse desenho na primeira tabela de verdade. As
-quatro perguntas voltam como roteiro fixo em todo o Ato II.
+O dicionário é o insumo direto de três operações. A operação 04 pega os verbos
+anotados hoje e os transforma em relacionamento com cardinalidade. A operação 05
+formaliza as PK e FK marcadas hoje. A operação 08 traduz o dicionário em
+`CREATE TABLE`, quase linha por linha: tipo, tamanho, obrigatoriedade e valor
+padrão já estão decididos.
 
 ## Consulta
 
-A teoria deste dia corresponde às seções **A — Banco de dados** e **B —
-Modelagem** do Caderno:
+A teoria deste dia corresponde às seções **A — Banco de dados** e
+**B — Modelagem** do Caderno:
 
 https://uc5-banco-de-dados.vercel.app/caderno.html#ref-modelagem
