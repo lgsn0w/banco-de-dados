@@ -30,26 +30,48 @@ começar, senão não há o que ligar.
 | 6 | Corrigir o modelo dos outros | Exercício 5 |
 | 7 | A missão: o mapa de ligações da empresa | Checkpoint 4 |
 
-Mais três anexos: **A** com os cinco erros que o dia produz, **B** com sete
-extras opcionais e **C** com o checklist de entrega.
+Mais quatro anexos: **A** com os cinco erros que o dia produz, **B** com sete
+extras opcionais, **C** com o checklist de entrega e **D** com vinte e oito
+exemplos de SQL para ler.
 
-## A prévia de SQL
+## O SQL deste PDF
 
-Este é o primeiro PDF da unidade com SQL dentro. São **três caixas cor de
-âmbar**, uma no capítulo 3, uma no capítulo 4 e uma no capítulo 5, marcadas
-**Prévia de SQL · só para ler**.
+Este é o primeiro PDF da unidade com SQL dentro. Ele entra em dois lugares, os
+dois só de leitura.
 
-Elas mostram a mesma decisão do papel escrita em SQL: a linha `REFERENCES` do
-1:N, o `PRIMARY KEY` de duas colunas da tabela de ligação, e o `UNIQUE` que
-separa o 1:1 do 1:N.
+**Três caixas cor de âmbar**, uma no capítulo 3, uma no capítulo 4 e uma no
+capítulo 5, marcadas *Prévia de SQL · só para ler*. Cada uma mostra a decisão que
+a turma acabou de tomar no papel, escrita em SQL: a linha `REFERENCES` do 1:N, o
+`PRIMARY KEY` de duas colunas da tabela de ligação, e o `UNIQUE` que separa o 1:1
+do 1:N.
 
-**A turma não escreve SQL hoje, e não copia as caixas.** Elas são leitura de
-passagem, três minutos cada uma no máximo. O objetivo é a turma reconhecer a
-palavra na operação 08 em vez de encontrá-la pela primeira vez. Célula que pedir
-para escrever SQL hoje recebe a mesma resposta de sempre: a operação 08.
+**O anexo D**, com vinte e oito exemplos mínimos, todos da gráfica do capítulo 1.
+Sete páginas, em seis blocos:
 
-Se o tempo apertar, as três caixas são a primeira coisa a cortar. Nenhum
-exercício e nenhum passo da missão depende delas.
+| Bloco | Exemplos | Assunto |
+|---|---|---|
+| Criar a tabela | D1 a D6 | `CREATE TABLE`, colunas, os sete tipos, tamanho |
+| As três decisões do domínio | D7 a D10 | `NOT NULL`, opcional, `DEFAULT` |
+| As chaves | D11 a D14 | `PRIMARY KEY`, `UNIQUE`, tabela completa |
+| As ligações | D15 a D19 | `REFERENCES`, FK opcional, 1:1, tabela de ligação |
+| Pôr linha dentro | D20 a D24 | `INSERT INTO`, aspas, várias linhas, ordem |
+| Mudar depois | D25 a D28 | `ALTER TABLE`, `DROP COLUMN`, `DROP TABLE` |
+
+O anexo D fecha com a Tabela 8, que é a ordem do script da operação 08, e com a
+lista do que ele **não** traz: `SELECT`, `UPDATE`, `DELETE`, `JOIN`, índice e
+view.
+
+**A turma não escreve SQL hoje, e não copia nada.** É leitura de passagem. O
+objetivo é a turma reconhecer a palavra na operação 08 em vez de encontrá-la pela
+primeira vez. Célula que pedir para escrever SQL hoje recebe a mesma resposta de
+sempre: a operação 08.
+
+Nada no dia depende disso. As três caixas e o anexo D são a primeira coisa a
+cortar se o tempo apertar. Nenhum exercício e nenhum passo da missão os usa.
+
+Uma pendência: o SGBD ainda não está escolhido, então os exemplos usam a forma
+comum a todos. Onde os SGBD divergem, o D12 (PK gerada) e o D10 (data de hoje)
+avisam no próprio texto.
 
 ## Como conduzir
 
