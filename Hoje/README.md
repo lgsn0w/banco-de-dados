@@ -84,6 +84,11 @@ volta em todos os capítulos seguintes, na missão e no Ato III inteiro. Vale
 escrever as duas frases no quadro e deixar lá até o dia 7, ao lado das quatro
 perguntas da operação 02 e do substantivo e verbo da operação 03.
 
+O capítulo 3 abre com a caixa **As duas siglas**, que define PK e FK. A operação
+03 definiu FK numa nota de três linhas e mandou "hoje basta marcar". Hoje a FK
+decide o modelo, então a definição volta inteira. Quem faltou ontem entra por
+essa caixa.
+
 Os capítulos 3, 4 e 5 são uma cardinalidade cada. O capítulo 4 é o mais denso e
 o que mais rende: a tabela de ligação e a coluna do encontro são o que faz a
 operação 13 (JOIN) fazer sentido.
