@@ -1,146 +1,155 @@
-# Hoje: operação 03 — O que a empresa guarda
+# Hoje: operação 04 — Quem se liga a quem
 
-Primeiro dia do **Ato II — A planta**, e o terceiro dia de papel e caneta. A
-turma aprende a **descobrir o que a empresa guarda** e a escrever isso num
-documento fechado: levantamento de dados, entidade e atributo, tipo, tamanho,
-obrigatoriedade, e o **dicionário de dados**.
+Segundo dia do **Ato II — A planta**, e o quarto dia de papel e caneta. A turma
+aprende a **transformar os verbos anotados ontem em ligação entre tabelas**:
+relacionamento, cardinalidade 1:1, 1:N e N:M, onde mora a chave estrangeira e
+quando a ligação vira uma tabela nova.
 
-Use **`dia-03-o-que-a-empresa-guarda.pdf`** do começo ao fim. Ele é só roteiro:
+Use **`dia-04-quem-se-liga-a-quem.pdf`** do começo ao fim. Ele é só roteiro:
 **não tem espaço de resposta**. A turma responde tudo no caderno, e é o caderno
 que as células trocam entre si no fim.
 
 ## A regra do dia
 
-**Sem dispositivos, pelo terceiro dia.** A instalação do SGBD não acontece hoje.
-O dia inteiro é conversa, papel e caneta. Ver a nota sobre a instalação no fim
-deste README.
+**Sem dispositivos, pelo quarto dia.** A instalação do SGBD continua adiada para
+a operação 06, junto com o DER em ferramenta. Ver a nota no fim deste README.
 
-**Traga a ficha de fundação da operação 01 e o desenho da operação 02.** As duas
-são insumo do capítulo 7. Quem faltou precisa fechar as duas com a célula antes
-do capítulo 7 começar.
+**Traga o dicionário de dados da operação 03.** Ele é o insumo do capítulo 7.
+Célula que não fechou o dicionário ontem precisa fechá-lo antes do capítulo 7
+começar, senão não há o que ligar.
 
 ## Os sete capítulos
 
 | Cap | Assunto | Termina em |
 |---|---|---|
-| 1 | Duas listas da mesma empresa | Exercício 1 |
-| 2 | Onde o dado já está escrito | Checkpoint 1 + Exercício 2 |
-| 3 | Entidade ou atributo | Exercício 3 |
-| 4 | Tipo, tamanho e obrigatoriedade | Checkpoint 2 + Exercício 4 |
-| 5 | O dicionário de dados | Checkpoint 3 |
-| 6 | Corrigir o dicionário dos outros | Exercício 5 |
-| 7 | A missão: o dicionário da empresa | Checkpoint 4 |
+| 1 | Duas células, a mesma ligação | Exercício 1 |
+| 2 | A frase nos dois sentidos | Checkpoint 1 + Exercício 2 |
+| 3 | 1:N, a chave mora no lado N | Exercício 3 |
+| 4 | N:M, a ligação vira tabela | Checkpoint 2 + Exercício 4 |
+| 5 | 1:1, o caso raro | Checkpoint 3 |
+| 6 | Corrigir o modelo dos outros | Exercício 5 |
+| 7 | A missão: o mapa de ligações da empresa | Checkpoint 4 |
 
 Mais três anexos: **A** com os cinco erros que o dia produz, **B** com sete
 extras opcionais e **C** com o checklist de entrega.
 
-## O tom do material
+## A prévia de SQL
 
-Este PDF é o primeiro escrito inteiro no estilo ASD-STE100 aplicado ao
-português: frase curta, uma instrução por frase, imperativo, uma palavra um
-significado. Vale para a teoria também, não só para os enunciados. É para ler em
-voz alta assim mesmo.
+Este é o primeiro PDF da unidade com SQL dentro. São **três caixas cor de
+âmbar**, uma no capítulo 3, uma no capítulo 4 e uma no capítulo 5, marcadas
+**Prévia de SQL · só para ler**.
 
-**Vocabulário fixo, o mesmo da operação 02.** `célula` é sempre o grupo de
-alunos e `campo` é sempre o quadradinho da tabela. Acrescentam-se hoje três
-termos, e eles não têm sinônimo neste material: **entidade** (vira tabela),
-**atributo** (vira coluna) e **domínio** (tipo mais tamanho mais
-obrigatoriedade).
+Elas mostram a mesma decisão do papel escrita em SQL: a linha `REFERENCES` do
+1:N, o `PRIMARY KEY` de duas colunas da tabela de ligação, e o `UNIQUE` que
+separa o 1:1 do 1:N.
+
+**A turma não escreve SQL hoje, e não copia as caixas.** Elas são leitura de
+passagem, três minutos cada uma no máximo. O objetivo é a turma reconhecer a
+palavra na operação 08 em vez de encontrá-la pela primeira vez. Célula que pedir
+para escrever SQL hoje recebe a mesma resposta de sempre: a operação 08.
+
+Se o tempo apertar, as três caixas são a primeira coisa a cortar. Nenhum
+exercício e nenhum passo da missão depende delas.
 
 ## Como conduzir
 
-O capítulo 1 é o gancho e depende de a turma **não** ter o método ainda. As duas
-listas da pousada são plausíveis de propósito. Deixe a turma defender as duas
-antes de entregar o capítulo 2, senão o exercício 1 não produz divergência e o
-capítulo 2 perde a razão de existir.
+O capítulo 1 é o gancho e depende de a turma **não** ter a regra ainda. Os dois
+modelos da gráfica são plausíveis de propósito. Deixe a turma defender os dois
+antes de entregar o capítulo 2.
 
-O capítulo 2 é o eixo do dia. O procedimento de **substantivo e verbo** e o
-**critério da pergunta** voltam em todos os capítulos seguintes e na missão.
-Vale escrever os dois no quadro e deixar lá até o dia 7.
+O capítulo 2 é o eixo do dia. O **procedimento das duas frases** (ida e volta)
+volta em todos os capítulos seguintes, na missão e no Ato III inteiro. Vale
+escrever as duas frases no quadro e deixar lá até o dia 7, ao lado das quatro
+perguntas da operação 02 e do substantivo e verbo da operação 03.
 
-Os capítulos 3 e 4 são teoria com exercício no fim. O capítulo 4 é o mais denso
-e o mais chato: ele é o que faz a operação 08 render.
+Os capítulos 3, 4 e 5 são uma cardinalidade cada. O capítulo 4 é o mais denso e
+o que mais rende: a tabela de ligação e a coluna do encontro são o que faz a
+operação 13 (JOIN) fazer sentido.
 
-O capítulo 5 é curto e é o que a turma leva do dia. Os dois dicionários da
-pousada são o modelo que a missão copia.
+O capítulo 5 é curto de propósito. A mensagem dele não é como fazer um 1:1, é
+**por que quase nunca se faz um**.
 
-O capítulo 6 é o primeiro em que a célula corrige um documento inteiro em vez de
-uma tabela. Espere lentidão aqui.
+O capítulo 6 é onde o dia trava. Espere lentidão.
 
-O capítulo 7 é a aula toda. **Reserve a última hora e meia para ele.** Ele é
-maior que o capítulo 7 da operação 02, porque a missão é o documento inteiro e
-não uma tabela.
+O capítulo 7 é a aula toda. **Reserve a última hora e meia para ele.**
 
 ## Onde a turma trava
 
-- **Exercício 2, item 5 (marcenaria).** Falta o dado "dias trabalhados por
-  ajudante em cada serviço". Quase nenhuma dupla acha sozinha. Conduza pela
-  pergunta do dono: "para tirar a diária, você precisa saber o quê?".
-- **Exercício 3, praça e ingrediente.** Os dois parecem atributo e são entidade.
-  A diferença está nas informações do negócio, não no nome. Célula que decidiu
-  sem reler a lista de informações erra os dois.
-- **Exercício 4, `cpf_responsavel`.** Obrigatória para menor, inexistente para
-  adulto. Não existe marca certa hoje. A saída é declarar opcional e escrever a
-  regra na descrição. Deixe a discussão correr três minutos.
-- **Marcar tudo como obrigatório.** É o erro 4 do anexo A e o mais comum do dia.
-  O sintoma é a célula justificar com a palavra "importante". Importante não é o
-  critério: o critério é impedir a linha de existir.
-- **Separar demais, de novo.** A operação 02 já produziu isso. Hoje reaparece em
-  `status`, `forma_pagamento` e `cor`. A regra do só nome, no capítulo 3, e o
-  erro 3 do anexo A existem para segurar.
+- **Exercício 2, caminhão e rota.** É o item 5 e é de propósito: a fala do dono
+  não decide a cardinalidade. Quase toda dupla marca 1:N sem perceber. A saída é
+  a pergunta "a mesma rota sai sempre com o mesmo caminhão?". Deixe a discussão
+  correr três minutos antes de intervir.
+- **Exercício 3, `id_venda` no exemplar.** É a primeira FK opcional do material.
+  A dupla que marca tudo obrigatório não pensou no exemplar parado no estoque. É
+  o mesmo erro 4 da operação 03, com outra roupa.
+- **Exercício 4, a tabela `emprestimo`.** Ela liga três coisas: equipamento,
+  aluno e mergulho. A célula trava porque o capítulo 4 só mostrou ligação de dois
+  lados. Aceite `id_aluno` como FK comum dentro da tabela de ligação. O caso de
+  três lados inteiro é o extra E3.1.
+- **Exercício 5, a `sessao`.** A tabela de ligação já está lá e ninguém percebe,
+  porque ela tem nome de negócio. É o ponto do exercício. Se ninguém chegar,
+  conduza: "o que sobra na sessão depois de tirar data, horas e valor?".
+- **Tabela de ligação para tudo.** Depois do capítulo 4 aparece a célula que cria
+  `cliente_pedido` para um 1:N. É o erro 4 do anexo A. O sintoma é a célula
+  achar que tabela de ligação é sempre mais seguro.
+- **Coluna no plural.** `pedidos`, `alunos`, `telefones`. É o sintoma mais rápido
+  de ligação no lugar errado, e serve para varrer o mapa da célula em dez
+  segundos. Está no erro 2 do anexo A.
 
 ## A missão da célula
 
-**O dicionário de dados da empresa.** A célula escreve as perguntas do dono,
-levanta os candidatos pela ficha da operação 01, aplica o teste das três
-perguntas, fecha entre 5 e 8 entidades, e escreve o **dicionário completo de
-três tabelas** com as oito colunas. Uma das três é obrigatoriamente a tabela
-desenhada na operação 02. As tabelas restantes entram só com nome, PK e de 3 a 5
-colunas.
+**O mapa de ligações da empresa.** A célula pega o dicionário da operação 03,
+escreve no mínimo cinco pares de tabelas ligadas por verbo, aplica o
+procedimento das duas frases em cada par, marca a cardinalidade, põe a FK do
+lado certo em cada 1:N, cria a tabela de ligação de cada N:M e escreve o
+dicionário completo de uma dessas tabelas de ligação.
 
-O passo 3 é o que separa a entrega boa da entrega fraca: a célula liga cada
-pergunta do dono às colunas que respondem a pergunta. Célula que não consegue
-fazer essa ligação descobre ali, no papel, que falta coluna.
+**Exija no mínimo um N:M.** Mapa sem nenhum N:M quase sempre tem uma ligação não
+descoberta, e o buraco só aparece na operação 13, quando a consulta não fecha.
 
-O passo 4 lista, em oito itens, exatamente o que vai no caderno. O modelo do
-dicionário para copiar está logo abaixo dele.
+O passo 4 é o que separa a entrega boa da fraca: a célula escreve o **caminho de
+tabelas** de cada pergunta do dono. Caminho que quebra no meio revela a ligação
+que falta, ainda no papel.
+
+O passo 5 lista, em oito itens, exatamente o que vai no caderno. O modelo do mapa
+para copiar está logo abaixo dele.
 
 A entrega é pelo botão **Entregar no site**, no card da missão. Uma por célula.
 
 ## Pendências no site
 
-1. O `curriculo.js` ainda descreve o dia 2 como "Instalar o cofre" e a missão do
-   dia 2 como "Instalar o SGBD". A operação 02 foi dada como "O olho clínico",
-   sem instalação. O título, o `vemos` e o card da missão do dia 2 precisam ser
-   ajustados.
-2. O dia 3 no `curriculo.js` já está correto: "O que a empresa guarda",
-   modelagem conceitual, levantamento e dicionário de dados. Nada a mudar.
-3. A missão do site para os dias 3 a 7 é "O modelo completo", uma entrega só
-   para cinco dias. O dicionário de hoje é a primeira parcela dela. Vale marcar
-   isso no card, senão a célula acha que a entrega de hoje é a entrega final.
+1. O `curriculo.js` **ainda** descreve o dia 2 como "Instalar o cofre" e a missão
+   do dia 2 como "Instalar o SGBD". A pendência está aberta desde a operação 02.
+   Título, `vemos` e card da missão do dia 2 precisam ser ajustados.
+2. O dia 4 no `curriculo.js` está correto: "Quem se liga a quem", relacionamentos
+   e cardinalidade. Nada a mudar.
+3. A missão do site para os dias 3 a 7 é "O modelo completo", uma entrega só para
+   cinco dias. O dicionário da operação 03 foi a primeira parcela e o mapa de
+   hoje é a segunda. O PDF já avisa isso numa nota do capítulo 7, mas o card do
+   site continua sem avisar.
 
 ## A instalação do SGBD
 
-O README da operação 02 anunciou para hoje a instalação do SGBD. Ela foi
-adiada de novo, de propósito: o dicionário de dados ocupa as quatro horas
-inteiras, e instalação pela metade custa o capítulo 7.
-
-A instalação e o DER em ferramenta (brModelo ou dbdiagram) ficam para a
-operação 06, que já é o dia do desenho no site. Quem assumir a turma na
-operação 04 precisa saber disso: **a turma chega no dia 4 sem ambiente
-instalado**, com o modelo inteiro no papel.
+Continua adiada, junto com o DER em ferramenta, para a **operação 06**. Quem
+assumir a turma na operação 05 precisa saber: **a turma chega no dia 5 sem
+ambiente instalado**, com dicionário e mapa de ligações no papel.
 
 ## O que o dia prepara
 
-O dicionário é o insumo direto de três operações. A operação 04 pega os verbos
-anotados hoje e os transforma em relacionamento com cardinalidade. A operação 05
-formaliza as PK e FK marcadas hoje. A operação 08 traduz o dicionário em
-`CREATE TABLE`, quase linha por linha: tipo, tamanho, obrigatoriedade e valor
-padrão já estão decididos.
+O mapa é o insumo direto de quatro operações. A operação 05 pega as FK marcadas
+hoje e dá regra a elas: chave candidata, chave estrangeira e integridade
+referencial. A operação 06 desenha o mapa no brModelo ou no dbdiagram. A operação
+08 traduz cada FK numa linha `REFERENCES` e cada tabela de ligação num
+`PRIMARY KEY` de duas colunas. A operação 13 percorre o caminho de tabelas
+escrito hoje, e é ali que ligação errada custa caro.
 
 ## Consulta
 
-A teoria deste dia corresponde às seções **A — Banco de dados** e
-**B — Modelagem** do Caderno:
+A teoria deste dia corresponde à seção **B — Modelagem** do Caderno, na parte das
+três cardinalidades e do modelo lógico:
 
 https://uc5-banco-de-dados.vercel.app/caderno.html#ref-modelagem
+
+**Diferença de termo, avisada no PDF:** o Caderno chama de *tabela intermediária*
+o que este material chama de **tabela de ligação**. São a mesma tabela. Use um
+termo só em voz alta, do dia 4 ao dia 18.
